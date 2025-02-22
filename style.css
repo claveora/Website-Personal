@@ -253,6 +253,26 @@ div.content p {
 .footer .copyriht{
     margin-top: 15px;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     color: white;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem
+}
+@media (max-width: 1440px){
+
+}
+@media (max-width: 1024px){
+    .card {
+        width: 250px;
+        height: 350px;
+    }
+    
+}
+@media (max-width: 600px){
+    .card-container {
+        flex-direction: column;
+    }
 }
