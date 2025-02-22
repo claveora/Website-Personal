@@ -259,7 +259,7 @@ div.content p {
 .card-container{
     display: flex;
     flex-direction: row;
-    gap: 1rem
+    gap: 1rem;
 }
 @media (max-width: 1440px){
 
