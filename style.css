@@ -261,18 +261,93 @@ div.content p {
     flex-direction: row;
     gap: 1rem;
 }
-@media (max-width: 1440px){
-
-}
-@media (max-width: 1024px){
-    .card {
-        width: 250px;
-        height: 350px;
+@media (max-width: 1440px) {
+    .header {
+        padding: 20px 5%;
     }
-    
+    .home {
+        padding: 20px 5%;
+        gap: 3em;
+    }
+    .home-content h1 {
+        font-size: 48px;
+    }
+    .home-content h3 {
+        font-size: 36px;
+    }
 }
-@media (max-width: 600px){
-    .card-container {
+
+@media (max-width: 1024px) {
+    .header {
+        padding: 15px 5%;
+    }
+    .home {
         flex-direction: column;
+        align-items: center;
+        padding: 20px 5%;
+    }
+    .home-content h1 {
+        font-size: 40px;
+    }
+    .home-content h3 {
+        font-size: 30px;
+    }
+    .btn-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-1, .btn-2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .about {
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+    .about-img img {
+        width: 100%;
+        max-width: 300px; /* Adjust as needed */
+    }
+    .about-content {
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 5%;
+    }
+    .navbar a {
+        margin: 10px 0;
+    }
+    .home {
+        padding: 10px 5%;
+    }
+    .home-content h1 {
+        font-size: 32px;
+    }
+    .home-content h3 {
+        font-size: 24px;
+    }
+    .contact-form form {
+        padding: 0 10px;
+    }
+    .footer ul li {
+        display: block;
+        padding: 5px 0;
+    }
+    .footer .social a {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+    }
+    .footer .copyriht {
+        font-size: 12px;
+    }
+    .img-box img {
+        width: 100%;
+        max-width: 300px; /* Adjust as needed */
     }
 }
