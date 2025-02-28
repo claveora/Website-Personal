@@ -326,7 +326,7 @@ div.content p {
     .contact{
         display: flex;
         position: absolute;
-        right: 0%;
+        right: -2%;
         font-size: 12px;
         padding: 5px 5%;
     }
@@ -368,10 +368,10 @@ div.content p {
         padding: 5px 0;
     }
     .about-content h2{
-        font-size: 15px;
+        font-size: 25px;
     }
     .about-content h3{
-        font-size: 10px;
+        font-size: 20px;
     }
     .about-img{
         width: 85%;
