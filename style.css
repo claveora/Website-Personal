@@ -326,7 +326,7 @@ div.content p {
     .contact{
         display: flex;
         position: absolute;
-        right: -2%;
+        right: 0%;
         font-size: 12px;
         padding: 5px 5%;
     }
