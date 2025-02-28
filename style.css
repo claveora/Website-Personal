@@ -326,22 +326,24 @@ div.content p {
     .contact{
         display: flex;
         position: absolute;
-        right: 5%;
+        right: 0%;
         font-size: 12px;
         padding: 5px 5%;
     }
     .logo{
-        font-size: 15px;
+        font-size: 16px;
     }
     .home {
+        font-size: 10px;
         padding: 10px 5%;
     }
     .home-content h1 {
-        margin-top: 150px;
+        margin-top: 2px;
         font-size: 20px;
     }
     .home-content h3 {
-        font-size: 15px;
+        margin-top: 200px;
+        font-size: 20px;
     }
     .p{
         font-size: 25px;
@@ -355,12 +357,35 @@ div.content p {
     .btn-2{
         font-size: 15px;
     }
+    .about-content h2{
+        font-size: 20px;
+    }
+    .about-content p{
+        font-size: 17px;
+    }
     .contact-form form {
         padding: 0 10px;
     }
     .footer ul li {
         display: block;
         padding: 5px 0;
+    }
+    .about-content h3{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .about-img{
+        width: 85%;
+        margin-bottom: -30%;
+    }
+    .contact-form h2{
+        font-size: 25px;
+    }
+    .input-box{
+        padding: 5px 3%;
+        font-size: 5px;
     }
     .footer .social a {
         font-size: 20px;
@@ -372,6 +397,8 @@ div.content p {
         font-size: 12px;
     }
     .img-box img {
+        justify-content: center;
+        position: relative;
         width: 100%;
         max-width: 300px;
     }
