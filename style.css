@@ -314,24 +314,24 @@ div.content p {
 }
 @media (max-width: 600px) {
     .header {
-        font-size: 14px;
+        font-size: 12px;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px 5%;
     }
     .navbar a {
-        font-size: 12px;
+        font-size: 11px;
         margin: 10px 0;
     }
     .contact{
         display: flex;
         position: absolute;
         right: 1%;
-        font-size: 12px;
+        font-size: 11px;
         padding: 5px 5%;
     }
     .logo{
-        font-size: 16px;
+        font-size: 12px;
     }
     .home {
         font-size: 10px;
@@ -398,5 +398,15 @@ div.content p {
         position: relative;
         width: 100%;
         max-width: 300px;
+    }
+    ::-webkit-scrollbar{
+        width: 15px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: orangered;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 50px;
     }
 }
