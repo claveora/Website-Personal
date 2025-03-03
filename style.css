@@ -327,8 +327,8 @@ div.content p {
         display: flex;
         position: absolute;
         right: 1%;
-        font-size: 11px;
-        padding: 5px 5%;
+        font-size: 9px;
+        padding: 3px 2%;
     }
     .logo{
         font-size: 12px;
